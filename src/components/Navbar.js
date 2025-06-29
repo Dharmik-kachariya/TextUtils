@@ -46,8 +46,8 @@ function Navbar(props) {
         </div>
       </nav>
     </div>
-  );
+  )
 }
 
 export default Navbar;
-Navbar.PropTypes = { title: PropTypes.string, aboutText: PropTypes.string };
+Navbar.propTypes = { title: PropTypes.string, aboutText: PropTypes.string };
