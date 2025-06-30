@@ -45,7 +45,6 @@ export default function TextForms(prop) {
          <button className="btn btn-primary mx-2 my-3" onClick={handleClearClick}>
           Clear Text
         </button>
-        
          <button className="btn btn-primary mx-2 my-3" onClick={handleClearClick}>
           Clear Text
         </button>

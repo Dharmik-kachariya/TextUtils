@@ -4,6 +4,7 @@ export default function About() {
   const [myStyle, setmyStyle] = useState({
     color: "white",
     backgroundColor: "black",
+    // border : '2px solid white'
   });
 
   const [btnText, setBtnText] = useState("Enable Dark mode");
@@ -13,7 +14,8 @@ export default function About() {
       setmyStyle({
         color: "black",
         backgroundColor: "white",
-      });
+        border : '1px solid dark'
+      })
 
       setBtnText("Enable Dark mode");
 
@@ -21,6 +23,7 @@ export default function About() {
       setmyStyle({
         color: "white",
         backgroundColor: "black",
+        border : '1px solid white'
       })
       setBtnText("Enable Light mode");
     }
